@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1af2c0d4-bdb1-4f0d-9642-6c85b07d21be",
+    "data": [
+      {
+        "text": "domain",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "249c9333-9c82-4baa-8124-289ac28e401a",
+    "data": [
+      {
+        "text": "number of ",
+        "userDefined": false
+      },
+      {
+        "text": "participants",
+        "meta": "@sys.number-integer",
+        "alias": "number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf9a142b-078e-4a91-ba0c-a657781c112d",
+    "data": [
+      {
+        "text": "enter your ",
+        "userDefined": false
+      },
+      {
+        "text": "team name",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16135041-4cd9-46e3-b3ea-d89d1a57ef8c",
+    "data": [
+      {
+        "text": "tech fest",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

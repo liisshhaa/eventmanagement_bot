@@ -1,0 +1,9 @@
+{
+  "id": "f9d70590-6941-4a59-8e08-558a03e51089",
+  "name": "branch",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

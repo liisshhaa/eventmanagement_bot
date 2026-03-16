@@ -1,0 +1,137 @@
+[
+  {
+    "id": "a71fe597-c8e4-4905-bd53-eb2645a498bd",
+    "data": [
+      {
+        "text": "which ",
+        "userDefined": false
+      },
+      {
+        "text": "event",
+        "meta": "@type_of_event",
+        "alias": "type_of_event",
+        "userDefined": true
+      },
+      {
+        "text": " are you interested in?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02bca846-2c40-4242-8811-edc16045436e",
+    "data": [
+      {
+        "text": "if you are registering for ",
+        "userDefined": false
+      },
+      {
+        "text": "tech fest",
+        "meta": "@TechFest",
+        "alias": "TechFest",
+        "userDefined": true
+      },
+      {
+        "text": " enter yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f8af272-f134-4917-a424-2e7caa16c256",
+    "data": [
+      {
+        "text": "enter your ",
+        "userDefined": false
+      },
+      {
+        "text": "college name",
+        "meta": "@college",
+        "alias": "college",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2854a6fe-3b4a-4e48-a692-28f78ef4e63f",
+    "data": [
+      {
+        "text": "enter your ",
+        "userDefined": false
+      },
+      {
+        "text": "branch",
+        "meta": "@branch",
+        "alias": "branch",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1abdc601-db94-4758-8473-c8262dcb5f7e",
+    "data": [
+      {
+        "text": "enter valid ",
+        "userDefined": false
+      },
+      {
+        "text": "USN",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf0fbd07-1d50-4bdf-9816-86c3e5a132af",
+    "data": [
+      {
+        "text": "enter your ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9ed0cff-e282-437a-bb66-e8c431a0ee6e",
+    "data": [
+      {
+        "text": "i want to register for event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "1ec6ab4e-639b-421a-8ef9-29092eac9bf9",
+  "name": "TechFest",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

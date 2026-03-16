@@ -1,0 +1,159 @@
+{
+  "id": "6d92fab9-6ea9-44bb-ba0a-841028ced61d",
+  "name": "management_bot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "management_bot-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "techfest",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "871b0125-e96e-4307-a7ac-7f592cd44bd2",
+          "name": "type_of_event",
+          "required": true,
+          "dataType": "@type_of_event",
+          "value": "$type_of_event",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter the type of event you are looking for(concert, food fest, sports meet ,coding competition, workshop, cultural event, tech fest)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9e38ce22-270a-4062-bf98-55574315dd3a",
+          "name": "TechFest",
+          "required": false,
+          "dataType": "@TechFest",
+          "value": "$TechFest",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "if you want to register for techfest ,please enter yes ,Y,y"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c741b1cc-a63c-4527-bd40-de8459c8b478",
+          "name": "person",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "153965d7-299a-4043-b761-9af65fddb06e",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter the valid usn"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1b383f25-8530-423d-9acc-99dfe609a493",
+          "name": "branch",
+          "required": true,
+          "dataType": "@branch",
+          "value": "$branch",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your branch name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "af233866-80f2-4bbf-b3bc-6c252f683f88",
+          "name": "college",
+          "required": true,
+          "dataType": "@college",
+          "value": "$college",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your college name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "WOW! that\u0027s a great choice you have registered for $type_of_event"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "753652ee-46c0-4926-a1d7-667b7bbe67cf",
+  "name": "management_bot - custom",
+  "auto": true,
+  "contexts": [
+    "techfest"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "management_bot.management_bot-custom",
+      "affectedContexts": [
+        {
+          "name": "techfest",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0568a35f-e02a-4799-ba8f-45c8b8749c1a",
+          "name": "person",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter team name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8fe952cc-a527-4fa8-ba95-3a75e2182380",
+          "name": "number-integer",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "value": "$number-integer",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter the number of participants(1 to 5)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0eb5d1a8-cca7-4aaf-ba8a-62a175097754",
+          "name": "domain",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter domain"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "$person and $number-integer have registered successfully"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "value": "ADE",
+    "synonyms": [
+      "ADE"
+    ]
+  },
+  {
+    "value": "CSE",
+    "synonyms": [
+      "CSE"
+    ]
+  },
+  {
+    "value": "ISE",
+    "synonyms": [
+      "ISE"
+    ]
+  },
+  {
+    "value": "CE",
+    "synonyms": [
+      "CE"
+    ]
+  },
+  {
+    "value": "ME",
+    "synonyms": [
+      "ME"
+    ]
+  },
+  {
+    "value": "EEE",
+    "synonyms": [
+      "EEE"
+    ]
+  },
+  {
+    "value": "ECE",
+    "synonyms": [
+      "ECE"
+    ]
+  }
+]
